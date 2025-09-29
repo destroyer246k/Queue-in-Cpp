@@ -19,6 +19,11 @@ Queues are useful in scheduling, buffering, printer management, and many real-wo
 - **Double-Ended Queue (Deque)** – insertion and deletion at both ends.  
 # Synatx
 ```cpp
+class Queue {
+    data_type arr[SIZE];   // array to store elements
+    int front;             // points to front element
+    int back;              // points to rear element
+};
 ```
 # **Program: Queue using Array**  
 
